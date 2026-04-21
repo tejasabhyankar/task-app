@@ -1,0 +1,16 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+button {
+  padding: 8px;
+  background: blue;
+  color: white;
+}
+
+.project {
+  background: #eee;
+  margin: 5px;
+  padding: 10px;
+}
