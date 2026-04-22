@@ -6,6 +6,8 @@
  
  Delete projects
 
+ Comments
+
  Tech Used:-
 
  Frontend: HTML, JavaScript
