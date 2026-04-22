@@ -36,6 +36,4 @@
  
  Add Comments
  
- Note:-
  
- This is a beginner-friendly implementation focusing on basic CRUD operations.
