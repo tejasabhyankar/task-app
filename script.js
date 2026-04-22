@@ -14,7 +14,7 @@ function loadProjects() {
                 text += "<br>- " + data[i].comments[j];
             }
              // delete button 
-            text += "<br><button onclick='deleteProject(" + i + ")'>Delete</button><br><br>";
+            text += "<br><button onclick='deleteProject("+i+")'>Delete</button><br><br>";
         }
             document.getElementById("list").innerHTML = text;
     });
