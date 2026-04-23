@@ -10,12 +10,12 @@ app.use(express.static(__dirname));
 let projects = [];
 
 // GET projects
-app.get("/projects", (req, res) => {
+app.get("/projects", (req,res) => {
     res.json(projects);
 });
 
 // ADD project
-app.post("/projects", (req, res) => {
+app.post("/projects", (req,res) => {
     const name = req.body.name;
 
     if (name) {
@@ -25,7 +25,7 @@ app.post("/projects", (req, res) => {
 });
 
 // ADD COMMENT
-app.post("/comment/:id", (req, res) => {
+app.post("/comment/:id", (req,res) => {
     const id = req.params.id;
     const comment = req.body.comment;
 
@@ -36,7 +36,7 @@ app.post("/comment/:id", (req, res) => {
 });
 
 // DELETE project
-app.delete("/delete/:id", (req, res) => {
+app.delete("/delete/:id", (req,res) => {
     const id = req.params.id;
     projects.splice(id, 1);
     res.send("Deleted");
